@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hobbies {
+    width: 100%;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.hobbies ul li{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    transition: .3s ease;
+}
+
+.hobbies ul{
+    padding-top: 20px;
+}
+
+.hobbies ul li:hover{
+    color: #ff7200;
+}
+
+.hobbies ul li span{
+    color: rgb(235, 7, 7);
+}
+
+.hobbies h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #ff7200;
+    padding-top: 20px;
+    text-shadow: 3px 3px 3px black;
+}
